@@ -7,7 +7,7 @@ function toggleVideo(){
     const video = document.querySelector('video');
     trailer.classList.toggle('active')
     video.currentTime = 0;
-    video.pause();
+    video.play();
 }
 
 
