@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Space Character</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <script defer src="swup.js"></script>
+        <script defer src="swup.min.js"></script>
+    </head>
+    <body>
+        
+        <div class="background"></div>
+        <div class="foreground"></div>
+
+        
+        <a href="/index.html" class="home">Home</a>
+        <main id="swup" class="transition-fade battle">
+            
+            <a class="play " onclick="toggleVideo();"><img src="/images/battle1.jpg"></a>
+            <a class="play " onclick="toggleVideo();"><img src="/images/battle2.jpg"></a>
+            <a class="play " onclick="toggleVideo();"><img src="/images/battle3.jpg"></a>
+            
+            <div class="trailer">
+                <video src="Technology - 4765.mp4" controls="true" autoplay muted></video>
+                <a onclick="toggleVideo();" class="close">X</a>
+            </div>
+       </main>
+       
+       
+       
+        <script src="app.js" async defer></script>
+    </body>
+</html>
